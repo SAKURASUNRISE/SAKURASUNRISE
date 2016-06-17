@@ -51,7 +51,7 @@ h2 {
 }
 
 .searchBtn {
-    background: url("resource/search.png");
+    background: url("search.png");
     position: relative;
     float: right;
     left: -26px;
@@ -176,18 +176,18 @@ h2 {
 }
 
 #bg_index {
-    background-image: url("resource/background.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
 }
 
 #bg_page1 {
 
-    background-image: url("resource/background2.jpg");
+    background-image: url("background2.jpg");
     background-size: cover;
 }
 
 #bg_page2{
-    background-image: url("resource/background3.jpg");
+    background-image: url("background3.jpg");
     background-size: cover;
 }
 
