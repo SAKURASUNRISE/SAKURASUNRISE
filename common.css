@@ -1,0 +1,70 @@
+body{
+    font-family: "Yu Gothic UI";
+}
+
+h1{
+    padding: 25px;
+    margin-bottom:20px;
+    padding-bottom:0;
+}
+h2 {
+    padding: 25px;
+    margin-top:5px;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    height: 40px;
+    width: 100%;
+    background: white;
+    box-shadow:15px 0 10px grey ;
+}
+
+#header > img {
+    position: relative;
+    top: -10px;
+    left:20px;
+    margin: 0;
+    height: 60px;
+    width: 200px;
+}
+
+#search {
+    margin: 5px 20px 10px 0;
+    position: relative;
+    float: right;
+}
+#search > input {
+    width: 160px;
+    height:20px;
+}
+#buttonArea {
+    position: relative;
+    margin: 5px 50px 5px 0;
+    float: right;
+    font-size: 20px;
+}
+#buttonArea a {
+    margin-right: 30px;
+    text-decoration: none;
+    color:grey;
+}
+
+#buttonArea a:hover{
+    color: lightblue;
+}
+
+.searchBtn {
+    background: url("../resource/search.png");
+    position: relative;
+    float: right;
+    left: -26px;
+    top:2px;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+

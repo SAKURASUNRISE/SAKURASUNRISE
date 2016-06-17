@@ -1,73 +1,33 @@
 body {
-    font-family: "Yu Gothic UI";
     background-image: url("../resource/background.jpg");
-    background-size: cover;
 }
-h1{
-    padding: 25px;
+h2{
+    margin:0 25px 5px 25px;
+    padding:0;
 }
-
-#header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 10px;
-    height: 40px;
-    width:100%;
-    background: whitesmoke;
-
+p {
+    margin: 5px 0 0 25px;
+    padding:0;
+    font-weight: bold;
 }
-#search {
-    margin: 5px 20px 10px 0;
+.block {
     position: relative;
-    float: right;
+    float: left;
+    display: block;
+    margin: 60px 0 30px 2.5%;
+    width: 30%;
+    height: 750px;
+    background-color: white;
 }
-#search > input {
-    width: 160px;
-    height:20px;
+.block img {
+    position: absolute;
+    bottom:40px;
+    width: 100%;
+    height: 250px;
 }
-#buttonArea {
-    position: relative;
-    margin: 5px 50px 5px 0;
-    float: right;
-    font-size: 20px;
-}
-#buttonArea a {
-    margin-right: 30px;
-    text-decoration: none;
-    color:grey;
-}
-
-#buttonArea a:hover{
-    color: lightblue;
-}
-
-.searchBtn {
-    background: black;
-    float: right;
-    height: 26px;
-    width: 26px;
-}
-
 #articleArea{
     width: 1400px;
     margin: 200px auto 0 auto;
     background-color: rgba(255,255,255,.8);
 }
-
-.block {
-    float: left;
-    margin: 60px 0 30px 2.5%;
-    width: 30%;
-    height: 500px;
-    background-color: white;
-}
-.block h1 {
-    min-height: 100px;
-}
-.block img {
-    width: 100%;
-    height: 250px;
-}
-
 
